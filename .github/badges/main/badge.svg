@@ -28,7 +28,7 @@
                         </text>
                     </g>
                     <text id="Score" font-family="Arial-BoldMT, Arial" font-size="15" font-weight="bold" fill="#0E123B">
-                        <tspan x="107" y="24">0/3</tspan>
+                        <tspan x="107" y="24">0/0</tspan>
                     </text>
                     <text id="Tests" font-family="ArialMT, Arial" font-size="15" font-weight="normal" fill="#0E123B">
                         <tspan x="54" y="24">Tasks</tspan>
