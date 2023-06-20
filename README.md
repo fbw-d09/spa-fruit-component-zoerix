@@ -31,27 +31,6 @@
 > This is what CodeBuddy found when running your code. It is to show you what you have achieved and to give you hints on how to complete the exercise.
 
 
-### Fruit component
-
-|                 Status                  | Check                                                                                    |
-| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
-| ![Status](../../blob/badges/.github/badges/main/status0.svg) | Fruit component is defined in `src/components/Fruit.js` |
-| ![Status](../../blob/badges/.github/badges/main/status1.svg) | Fruit component is used 4 times in `App.js` |
-
-### Change color
-
-|                 Status                  | Check                                                                                    |
-| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
-| ![Status](../../blob/badges/.github/badges/main/status2.svg) | Fruit component has "change color button" |
-| ![Status](../../blob/badges/.github/badges/main/status3.svg) | Fruit name changes color when "change color" button is clicked |
-
-### Delete fruit
-
-|                 Status                  | Check                                                                                    |
-| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
-| ![Status](../../blob/badges/.github/badges/main/status4.svg) | Fruit component has "delete" button |
-| ![Status](../../blob/badges/.github/badges/main/status5.svg) | Fruit is deleted when "delete" button is clicked |
-
 
 
 [🔬 Results Details](../../actions)
