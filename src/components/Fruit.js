@@ -21,10 +21,10 @@ function Fruit() {
     //function changeColor 
     function changeColor(id) {
         const selectedFruit = fruits.filter(fruit => fruit.id === id)[0];
-        const unchosenFruits = fruits.filter(fruit => fruit.id !== id); // der rest 
+        const unchosenFruits = fruits.filter(fruit => fruit.id !== id); // der rest (die früchte die übrig bleiben)
         selectedFruit.color = getRandomColor();
-        // selktierte elemente werden wieder zusammengefügt damit die liste vervollständigt ist
-        //aktuell selektierte frucht am anfang => sort() - reihenfolge wieder herstellen
+        // selektierte elemente werden wieder zusammengefügt damit die liste vervollständigt ist
+        //aktuell selektierte frucht am anfang => sort() - reihenfolge wieder herstellen(anhand der id)
         setFruits([selectedFruit, ...unchosenFruits].sort((a, b) => a.id - b.id));
     }
 
@@ -33,11 +33,6 @@ function Fruit() {
         setFruits(newFruits => newFruits.filter(fruit => fruit.id !== id))
 
     }
-
-    //wahrscheinlich irgendwo ein [...fruits]oder so
-    //map all fruits
-    //click changeColor Button
-    //deleteFruit Button to remove a fruit
 
     return (
         <div data-testid="fruit">
@@ -54,6 +49,7 @@ function Fruit() {
             </ul>
         </div>
     )
+    
 
 };
 
